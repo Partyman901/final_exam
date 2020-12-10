@@ -2,8 +2,56 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    display: grid;
+    width: 80%;
+    grid-template-areas:
+            "head"
+            "para"
+            "thumb"
+            "display"
+            "footer";
 }
 
 div img {
     width: 20%;
+}
+
+header {
+    text-align: center;
+    grid-area: head;
+}
+
+p {
+    text-align: center;
+    grid-area: para;
+}
+
+#thumb-bar {
+    grid-area: thumb;
+}
+
+.displayed-img {
+    grid-area: display;
+}
+
+footer {
+    display: grid;
+    grid-template-areas:
+            "label"
+            "input"
+            "button"
+}
+
+label {
+    grid-area: label;
+    text-align: center;
+}
+
+input {
+    grid-area: input;
+}
+
+button {
+    grid-area: button;
 }
