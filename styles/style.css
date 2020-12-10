@@ -17,6 +17,12 @@ div img {
     width: 20%;
 }
 
+#thumb-bar {
+    display: flex;
+}
+
+
+
 header {
     text-align: center;
     grid-area: head;
@@ -33,6 +39,10 @@ p {
 
 .displayed-img {
     grid-area: display;
+}
+
+.thumb-pic {
+    height: 
 }
 
 footer {
