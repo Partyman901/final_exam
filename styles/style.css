@@ -55,3 +55,14 @@ input {
 button {
     grid-area: button;
 }
+
+@media screen and (min-width: 640px){
+    p {
+        text-align: left;
+    }
+
+    footer {
+        display: inline-block;
+        padding: 10px;
+    }
+}
