@@ -21,8 +21,6 @@ div img {
     display: flex;
 }
 
-
-
 header {
     text-align: center;
     grid-area: head;
@@ -39,10 +37,7 @@ p {
 
 .displayed-img {
     grid-area: display;
-}
-
-.thumb-pic {
-    height: 
+    width: 100%;
 }
 
 footer {
